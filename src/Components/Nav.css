@@ -1,0 +1,23 @@
+navbar {
+  display: flex;
+  background-color: whitesmoke;
+  font-display: initial;
+  backdrop-filter: blur(1px);
+}
+/* .white-text {
+  color: aliceblue;
+} */
+.nav {
+  backdrop-filter: blur(1px);
+}
+.menu {
+  display: inline;
+  justify-content: flex-start;
+}
+.navbar-nav {
+  display: flex;
+}
+
+nav button {
+  height: 2.5em;
+}

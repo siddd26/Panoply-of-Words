@@ -1,0 +1,43 @@
+.iot {
+  background: rgba(255, 231, 231, 0.8);
+  color: white;
+  width: auto;
+}
+
+.desc {
+  width: 80%;
+  margin: auto;
+}
+
+.imgflex {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.m-item {
+  margin: 2px 15px;
+}
+
+.m-item img {
+  height: 50px;
+}
+/* 
+.himg {
+  height: 400px;
+} */
+
+@media (max-width: 700px) {
+  .odd {
+    display: flex;
+    flex-direction: column;
+  }
+  .even {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+/* .h-img {
+  height: 300px;
+} */

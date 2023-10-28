@@ -1,0 +1,23 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  text-align: center;
+}
+body {
+  padding: 10px;
+  /* color: aliceblue; */
+  background-size: cover;
+}
+select {
+  padding: 5px;
+}
+textarea {
+  padding: 5px;
+  border-radius: 2%;
+}
